@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-  background-color: white;
+  background-color: pink;
 }
 
 #shop_head{
@@ -17,7 +17,7 @@ body{
 
 #shop_foot{
  background-color: rgb(51, 61, 101);
- color: #fff;
+ color: pink;
  padding: 30px;
  line-height: 1.8;
  margin: 15px 0px;
