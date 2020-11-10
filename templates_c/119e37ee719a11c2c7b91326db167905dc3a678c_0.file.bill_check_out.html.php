@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-03 06:26:08
+/* Smarty version 3.1.29, created on 2020-11-10 06:59:29
   from "C:\Users\Rong\Downloads\UniServerZ\www\mini_shop\templates\bill_check_out.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5fa0f800c503c5_01392304',
+  'unifunc' => 'content_5faa3a51957a67_52445038',
   'file_dependency' => 
   array (
     '119e37ee719a11c2c7b91326db167905dc3a678c' => 
     array (
       0 => 'C:\\Users\\Rong\\Downloads\\UniServerZ\\www\\mini_shop\\templates\\bill_check_out.html',
-      1 => 1461804764,
+      1 => 1604988205,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5fa0f800c503c5_01392304 ($_smarty_tpl) {
+function content_5faa3a51957a67_52445038 ($_smarty_tpl) {
 ?>
 <h2>我的訂購單</h2>
 <?php echo '<script'; ?>
@@ -101,5 +101,6 @@ $_smarty_tpl->tpl_vars['goods_sn'] = $__foreach_goods_0_saved_key;
     <input type="hidden" name="op" value="save_bill">
     <button type="submit" class="btn btn-primary">送出訂購單</button>
   </div>
-</form><?php }
+</form>
+<?php }
 }

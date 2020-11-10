@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-03 06:30:31
+/* Smarty version 3.1.29, created on 2020-11-10 06:59:39
   from "C:\Users\Rong\Downloads\UniServerZ\www\mini_shop\templates\display_bill.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5fa0f9078929e3_46872303',
+  'unifunc' => 'content_5faa3a5b424cf9_61933260',
   'file_dependency' => 
   array (
     '2b6a2275aa81bd0bdc6d2e5714da7b0b90e664e6' => 
     array (
       0 => 'C:\\Users\\Rong\\Downloads\\UniServerZ\\www\\mini_shop\\templates\\display_bill.html',
-      1 => 1461800898,
+      1 => 1604988205,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5fa0f9078929e3_46872303 ($_smarty_tpl) {
+function content_5faa3a5b424cf9_61933260 ($_smarty_tpl) {
 ?>
 <h2><?php echo $_smarty_tpl->tpl_vars['bill']->value['bill_date'];?>
  訂購細目-<?php echo $_smarty_tpl->tpl_vars['bill']->value['bill_status'];?>
