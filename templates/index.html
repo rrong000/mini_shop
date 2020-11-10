@@ -17,16 +17,19 @@
   </head>
   <body>
     <div class="container">
+
       <div id="shop_head">
         <a href="index.php">
-          <img src="images/title.jpg" alt="{$shop_name}" class="img-responsive">
+          <img src="images/books.jpg" alt="{$shop_name}" class="img-responsive " style="height: 500px;width: 1300px;">
         </a>
       </div>
-
+        <div class="col-md-12 col-sm-12">
+          {include file='index_side.html'}
+        </div>
       <div id="shop_main" class="row">
         <div class="col-md-9 col-sm-8">
           {if isset($msg)}
-            <div class="alert alert-danger">{$msg}</div>
+            <div class="alert alert-primary">{$msg}</div>
           {/if}
           {if $op=="goods_form"}
             {include file="goods_form.html"}
@@ -46,15 +49,13 @@
             {include file='goods_list.html'}
           {/if}
         </div>
-        <div class="col-md-3 col-sm-4">
-          {include file='index_side.html'}
-        </div>
+        
       </div>
 
       <div id="shop_foot" >
-        <div>地址：XX市XX區XX路XX巷XX號</div>
-        <div>電話：(06)2345678</div>
-        <div>版權所有 copyright © 2016 tad0616.net. All Rights Reserved. </div>
+        <div>地址：LEE市JI區EUN路5巷16號</div>
+        <div>電話：(06)19930516</div>
+        <div>版權所有 copyright © 2020 rrong.net. All Rights Reserved. </div>
       </div>
     </div>
   </body>

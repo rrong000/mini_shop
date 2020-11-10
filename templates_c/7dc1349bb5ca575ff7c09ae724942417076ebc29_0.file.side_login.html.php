@@ -1,3 +1,26 @@
+<?php
+/* Smarty version 3.1.29, created on 2020-11-09 11:16:52
+  from "C:\Users\Rong\Downloads\UniServerZ\www\mini_shop\templates\side_login.html" */
+
+if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
+  'has_nocache_code' => false,
+  'version' => '3.1.29',
+  'unifunc' => 'content_5fa92524da1b19_76527011',
+  'file_dependency' => 
+  array (
+    '7dc1349bb5ca575ff7c09ae724942417076ebc29' => 
+    array (
+      0 => 'C:\\Users\\Rong\\Downloads\\UniServerZ\\www\\mini_shop\\templates\\side_login.html',
+      1 => 1604920610,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5fa92524da1b19_76527011 ($_smarty_tpl) {
+?>
 <form action="user.php" method="post" role="form" class="form-horizontal">
   <div class="form-group">
     <label class="col-md-4 control-label">帳號：</label>
@@ -21,4 +44,5 @@
     </div>
   </div>
 
-</form>
+</form><?php }
+}
